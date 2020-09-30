@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    background: yellow;
+    color: black;
+    font-family: 'Roboto Slab',serif;
+}
+
+#header {    
+    text-align: center;
+    font-size: 32px;
+    margin: 2px;
+}
+
+img#vlad {
+    border-radius: 50%; 
+    display:block;
+    margin:auto;
+
+}
+
+#date {
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Source Sans Pro',sans-serif; 
+}
+
+#container {
+    display: block;
+    width: auto;
+    margin: auto auto 0;
+    border: 2px solid black;
+    padding: 0px 10px 20px;
+}
+
+ul {
+    margin: 5px;
+    padding: 0px;
+}
+
+li * {
+    float: left;
+    
+}
+
+li {
+    clear: both;
+    overflow: hidden;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+button {
+    background: none;
+    border: 3px;
+    border-color: #000000;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-style: italic;
+    cursor: pointer;
+    float: right;
+    margin: 5px 10px;
+    padding: 1 18px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #000000;
+    outline: none;
+}
+
+button:hover {
+    color: rgb(255, 0, 0);
+    border: 1px solid rgb(255, 0, 0);
+    
+}
+
+#add:hover {
+    border: 3px solid rgb(255, 0, 0);
+}
+
+#add {
+
+    width: 15%;
+    float: right;
+    padding: 9px 5px;
+    margin-top: 0;
+    border: 3px solid #000000;
+}
+
+h1 {
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    border-bottom: 2px solid black;
+    padding: 10px 0;
+    margin: 0 0 10px;
+    text-align: center;
+    clear: both;
+}
+
+input[type="text"] {
+    margin: 1px 0;
+    font-size: 18px;
+    line-height: 18px;
+    height: 18px;
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(255, 215, 83);
+    outline: none;
+}
+
+label[for='newTask'] {
+    display: block;
+    margin: 0 0 20px;
+}
+
+input#newTask {   
+    float: left;
+    width: 80%;
+}
+
+li > input[type="checkbox"] {
+    margin: 0 10px;
+    position: relative;
+    top: 15px;
+    transform: scale(1.5);
+}
+
+li > label {
+    font-size: 18px;
+    line-height: 40px;
+    width: 220px;
+    padding: 1px 0 0 11px;
+    
+}
+
+li > input[type="text"] {
+    width: 75%;
+    background-color: rgb(255, 215, 83);
+}
+
+#finishedTasks label  {
+    text-decoration: line-through;
+}
+
+ul li input[type=text] {
+    display: none;
+}
+
+ul li.editMode input[type=text] {
+    display: block;
+}
+
+ul li.editMode label {
+    display: none;
+}
+
+button.checkbox {
+    float: left;    
+}
